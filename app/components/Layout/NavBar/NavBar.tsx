@@ -76,7 +76,7 @@ export function NavBar() {
             </div>
         
         <ul className="flex flex-col items-center md:flex-row gap-10 md:gap-4 min-[900px]:gap-5 lg:gap-8 start text-md leading-[22px] px-6">
-          {navbarItems.map(({ ref, label, scroll, prefetch }) => (
+          {navbarItems.map(({ ref, label, scroll }) => (
             <li key={ref} className="relative">
               <StyledNavLink
                 isActive={ref === linkRef}
@@ -86,7 +86,6 @@ export function NavBar() {
                   setIsMenuShown(false);
                 }}
                 scroll={scroll}
-                prefetch={prefetch}
                 className='font-outfit text-sm'
               >
                 {label}
