@@ -13,7 +13,7 @@ export default async function CalendarPage({ params }: any) {
         <>
           <section className="align-middle box-border p-7 pt-16 text-left">
             <h1 className="mb-4">{service?.info?.name}</h1>
-            <p className="text-stone-300 font-open-sans-condensed text-lg">
+            <p className="text-stone-300 font-outfit text-lg">
               Check out our availability and book the date and time that works
               for you
             </p>

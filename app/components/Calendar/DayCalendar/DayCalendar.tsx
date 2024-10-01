@@ -100,7 +100,7 @@ export function CalendarView({ service }: { service: ServiceInfoViewModel }) {
       <div className="m-6 max-w-full flex-grow">
         <div className="border-b pb-2 flex flex-wrap gap-4 items-baseline justify-between">
           <h2 className="text-2xl text-white">Select a Date and Time</h2>
-          <span className="text-stone-300 text-lg font-open-sans-condensed">
+          <span className="text-stone-300 text-lg font-outfit">
             Timezone: {timezoneStr}
           </span>
         </div>
@@ -126,7 +126,7 @@ export function CalendarView({ service }: { service: ServiceInfoViewModel }) {
               month={startOfMonth(selectedDate)}
             />
           </section>
-          <section className="flex-1 w-60 max-w-full font-open-sans-condensed text-lg">
+          <section className="flex-1 w-60 max-w-full font-outfit text-lg">
             <div className="mt-4">{format(selectedDate, 'EEEE, d MMMM')}</div>
             {showLoader ? (
               <div className="w-full h-36 flex items-center justify-center">

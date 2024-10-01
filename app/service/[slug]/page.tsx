@@ -47,7 +47,7 @@ function ServicePageView({ service }: { service: ServiceInfoViewModel }) {
   );
 
   return (
-    <div className="full-w rounded overflow-hidden max-w-7xl mx-auto text-center font-open-sans-condensed">
+    <div className="full-w rounded overflow-hidden max-w-7xl mx-auto text-center font-outfit">
       <div className="mt-14 mb-8 pb-8 border-b border-white w-full">
         <h1 className="mb-2">{service.info.name}</h1>
         <p className="pt-4 empty:hidden">{service.info.tagLine}</p>

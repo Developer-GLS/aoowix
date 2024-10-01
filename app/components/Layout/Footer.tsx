@@ -5,7 +5,7 @@ import Link from 'next/link';
 import testIds from '@app/utils/test-ids';
 
 const FooterNote = () => (
-  <div className="text-sm font-open-sans-condensed text-gray-c1 float-right">
+  <div className="text-sm font-outfit text-gray-c1 float-right">
     <span>©2024 BY <a href="https://greenleafstudio.it" target="_blank" rel="noopener noreferrer"><strong>Green Leaf Studio</strong></a></span>
   </div>
 );
@@ -43,7 +43,7 @@ const Footer = () => (
       <div className="flex-1 relative">
         <form>
           <ScrollIntoView hashName="#contact" />
-          <div className="font-open-sans-condensed">
+          <div className="font-outfit">
             <input
               className="footer-form-input"
               id="contact-form-name"

@@ -38,13 +38,13 @@ export default async function MyBookingsPage({
   return (
     <MyAccountSection member={member}>
       <h2 className="text-highlight text-4xl">Manage Your Bookings</h2>
-      <div className="text-sm font-open-sans-condensed py-2">
+      <div className="text-sm font-outfit py-2">
         <p className="pt-2">
           View, cancel your bookings and easily book again.
         </p>
         <p className="pt-2">Timezone: {timezoneStr}</p>
       </div>
-      <nav className="text-center sm:text-left font-open-sans-condensed text-highlight my-2 border-b border-white border-opacity-[0.04]">
+      <nav className="text-center sm:text-left font-outfit text-highlight my-2 border-b border-white border-opacity-[0.04]">
         {[
           { name: 'Upcoming', value: SelectedView.UPCOMING },
           { name: 'History', value: SelectedView.HISTORY },
@@ -64,7 +64,7 @@ export default async function MyBookingsPage({
         bookings.extendedBookings?.map(({ booking, allowedActions }, index) => (
           <div
             key={booking!._id}
-            className="flex flex-wrap gap-5 py-6 border-b border-white border-opacity-30 hover:border-opacity-80 font-open-sans-condensed"
+            className="flex flex-wrap gap-5 py-6 border-b border-white border-opacity-30 hover:border-opacity-80 font-outfit"
           >
             <div>{formatDateAndTime(booking!.startDate!)}</div>
             <div>{booking?.bookedEntity?.title}</div>
@@ -84,7 +84,7 @@ export default async function MyBookingsPage({
           </div>
         ))
       ) : (
-        <div className="py-12 text-center font-open-sans-condensed">
+        <div className="py-12 text-center font-outfit">
           <div className="mb-3">
             {"You've got nothing booked at the moment."}
           </div>

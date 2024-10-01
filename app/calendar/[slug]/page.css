@@ -35,7 +35,7 @@
 }
 
 .rdp-caption_label {
-  @apply font-open-sans-condensed;
+  @apply font-outfit;
   @apply font-normal;
   @apply text-lg;
   @apply pt-1;

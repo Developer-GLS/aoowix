@@ -83,10 +83,10 @@ export default function PlansList({
                     </span>
                     <span className="text-7xl">{priceParts.price}</span>
                   </div>
-                  <div className="text-xs pb-4 flex-grow font-open-sans-condensed">
+                  <div className="text-xs pb-4 flex-grow font-outfit">
                     {plan.description}
                   </div>
-                  <div className="text-xs font-open-sans-condensed">
+                  <div className="text-xs font-outfit">
                     {formatPlanDuration(plan)}
                   </div>
                   <PlanSelect
@@ -104,7 +104,7 @@ export default function PlansList({
                   <ul>
                     {plan.perks?.values?.map((perk, index) => (
                       <li key={index} className="py-1 text-center">
-                        <span className="text-sm pl-2 font-open-sans-condensed">
+                        <span className="text-sm pl-2 font-outfit">
                           {perk}
                         </span>
                       </li>

@@ -40,7 +40,7 @@ const LoginComp = ({ onActionClick }: LoginProps) => {
   return URLS_WITH_NO_AVATAR.includes(window.location.pathname) ? null : (
     <button
       onClick={onLoginClick}
-      className="flex flex-nowrap text-highlight gap-2 justify-center items-center font-open-sans-condensed"
+      className="flex flex-nowrap text-highlight gap-2 justify-center items-center font-outfit"
     >
       <div className="w-[22px] h-[22px] fill-highlight">
         <MemberAvatar />

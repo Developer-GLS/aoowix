@@ -59,7 +59,7 @@ const GalleryItem = ({
     <div className="absolute-full opacity-0 hover:opacity-70 bg-white p-8 flex flex-col justify-between text-black">
       <div className="text-center">
         <h4 className="text-2xl pt-4 pb-2">{title}</h4>
-        <p className="font-open-sans-condensed">{tagline}</p>
+        <p className="font-outfit">{tagline}</p>
       </div>
       <div className="flex justify-between">
         <a href="/#" className="cursor-pointer">
@@ -139,7 +139,7 @@ export default async function Home() {
             a compassionate and impactful UK-registered charity committed to ending and preventing animal suffering.
           </h3>
           <div className="max-w-[500px] md:pt-10 pb-2">
-            <section className="font-open-sans-condensed text-base text-stone-300 tracking-wider">
+            <section className="font-outfit text-base text-stone-300 tracking-wider">
               <p className="py-3">
                 {`We are the only physical sanctuary in Siem Reap, which is predominantly a forever home for disabled rescued animals who can no longer live independetly. We are currently prioritizing the rescue and rehabilitation of emergency animal medical cases only.
                 `}
@@ -207,14 +207,14 @@ export default async function Home() {
       <div className="text-center py-24 bg-[url('/home/our-world-d.jpg')] parallax-background">
         <div className="mx-auto max-w-4xl px-2">
           <h2 className="title tracking-widest text-4xl md:text-6xl">Our World</h2>
-          <div className="pt-8 font-open-sans-condensed text-lg text-start text-stone-300 flex flex-col gap-y-4 mb-4">
+          <div className="pt-8 font-outfit text-lg text-start text-stone-300 flex flex-col gap-y-4 mb-4">
             <h3 className='font-bold text-2xl pb-2 pl-2 md:pl-0'>Our Story</h3>
             <p>{'Our journey as an English couple exploring South East Asia began with the intention of enjoying a year or two of travel and relaxation. However, fate had other plans for us when we arrived in Bangkok and discovered the plight of stray animals. Our days and evenings quickly transformed into a mission of feeding and forming connections with these abandoned creatures.'}</p>
             <p>{'Over the course of four months, we embarked on a mission to visit every rescue shelter in each destination we encountered. Armed with the basic knowledge we had gained along the way, we started providing medical care to the stray animals we came across. It was during our time in Cambodia that we discovered four orphaned kittens, which compelled us to stay until we could find them loving forever homes.'}</p>
             <p>{'Within a few short weeks, the House Of Strays sanctuary came into existence. We made a life-altering decision to dedicate ourselves fully to the establishment of a rehabilitation center and shelter, with the goal of alleviating as much suffering as possible. '}</p>
             <p><strong>{'Today, several years later, our mission remains unwavering, and our shelter continues to serve as a vital temporary haven for those undergoing rehabilitation, as well as a permanent home for animals with special needs, and a temporary home for animals who have not yet found adoptive families.'}</strong></p>
           </div>
-          <div className="pt-8 font-open-sans-condensed text-lg text-start text-stone-300 flex flex-col gap-y-4 mb-4">
+          <div className="pt-8 font-outfit text-lg text-start text-stone-300 flex flex-col gap-y-4 mb-4">
             <h3 className='font-bold text-2xl pb-2 pl-2 md:pl-0'>Our Mission</h3>
             <p>{'Animals Of Our World defines who we are and drives our commitment to our cause.'}</p>
             <p>{'Through our community outreach program, we extend our reach to every corner of Cambodia. Distance is not a limitation for us. If an animal is suffering even ten hours away from our shelter, House Of Strays, we utilize our extensive network to locate the nearest rescuer or driver who can try to bring the animal to safety, to the best of our ability.'}</p>
@@ -222,7 +222,7 @@ export default async function Home() {
             <p>{'House Of Strays serves as the sanctuary and rehabilitation base for Animals Of Our World, providing a safe haven for over 100 rescued animals. Successful adoptions play a vital role in creating space for more animals and enabling us to continue our mission.'}</p>
             <p>{'However, it is equally important to secure the future of our base, ensuring its existence as a forever home for animals who will live out their lives under our care. This includes those who may never be adopted or those with additional daily needs. While not all of our rescues are available for adoption, we have numerous cats and dogs eagerly awaiting the opportunity to find a loving home.'}</p>
           </div>
-          <div className="pt-8 font-open-sans-condensed text-lg text-start text-stone-300 flex flex-col gap-y-4 mb-4">
+          <div className="pt-8 font-outfit text-lg text-start text-stone-300 flex flex-col gap-y-4 mb-4">
             <h3 className='font-bold text-2xl pb-2 pl-2 md:pl-0'>Our Features</h3>
             <p>{'Animals Of Our World has been featured in several interviews, articles, and events which you’ll find linked below.'}</p>
             <ul className='flex flex-col gap-y-2'>

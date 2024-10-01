@@ -88,7 +88,7 @@ function WeeklyClassesCalendarView({ classes }: WeeklyCalendarProps) {
 
   return (
     <>
-      <div className="flex flex-col items-center font-open-sans-condensed text-stone-300">
+      <div className="flex flex-col items-center font-outfit text-stone-300">
         <Dropdown
           label={
             <>
@@ -126,7 +126,7 @@ function WeeklyClassesCalendarView({ classes }: WeeklyCalendarProps) {
                   />
                   <label
                     htmlFor={id}
-                    className="font-open-sans-condensed text-white text-lg"
+                    className="font-outfit text-white text-lg"
                   >
                     {name}
                   </label>

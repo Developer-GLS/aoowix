@@ -57,7 +57,7 @@ const ServiceCardPreview = ({ service }: { service: ServiceInfoViewModel }) => {
           {service.info.name}
         </div>
       </a>
-      <div className="font-open-sans-condensed text-sm text-center p-3">
+      <div className="font-outfit text-sm text-center p-3">
         <div className="hover:text-gray-300 pb-3 transition-colors">
           <a href={`/service/${service.slug}`} className="underline">
             Read More

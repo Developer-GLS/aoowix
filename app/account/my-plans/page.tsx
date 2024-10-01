@@ -18,7 +18,7 @@ export default async function MyPlansPage() {
   return (
     <MyAccountSection member={member}>
       <h2 className="text-highlight text-4xl">My Plans</h2>
-      <div className="text-sm font-open-sans-condensed py-2">
+      <div className="text-sm font-outfit py-2">
         <p className="pt-2">
           View and manage the subscriptions you have purchased
         </p>
@@ -28,7 +28,7 @@ export default async function MyPlansPage() {
         planOrders?.map((order, index) => (
           <div
             key={order._id}
-            className="flex flex-wrap gap-5 py-6 border-b border-white border-opacity-30 hover:border-opacity-80 font-open-sans-condensed text-sm"
+            className="flex flex-wrap gap-5 py-6 border-b border-white border-opacity-30 hover:border-opacity-80 font-outfit text-sm"
           >
             <div>{order.planName}</div>
             <div>
@@ -44,7 +44,7 @@ export default async function MyPlansPage() {
           </div>
         ))
       ) : (
-        <div className="py-12 text-center font-open-sans-condensed">
+        <div className="py-12 text-center font-outfit">
           <div className="mb-3">
             {"You haven't purchased any subscriptions yet."}
           </div>

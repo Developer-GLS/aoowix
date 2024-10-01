@@ -14,7 +14,7 @@ export default function MyAccountSection({
           <div className="w-10 h-10 md:w-20 md:h-20 fill-gray-200">
             <MemberAvatar />
           </div>
-          <div className="whitespace-nowrap font-open-sans-condensed text-sm">
+          <div className="whitespace-nowrap font-outfit text-sm">
             {member?.profile?.slug}
           </div>
         </div>

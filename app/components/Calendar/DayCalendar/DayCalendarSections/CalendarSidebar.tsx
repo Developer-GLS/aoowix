@@ -44,7 +44,7 @@ const CalendarSidebar = ({
       <div className="border-b pb-2">
         <h2 className="text-2xl text-white">Service Details</h2>
       </div>
-      <section className="mt-4 font-open-sans-condensed text-lg">
+      <section className="mt-4 font-outfit text-lg">
         <div>{service.info.name}</div>
         <div>
           {format(selectedDate, 'd MMMM yyyy')}
